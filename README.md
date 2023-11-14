@@ -1,20 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+---
+
+# Hotel Landing Page - Next.js Project
+
+Welcome to the Hotel Landing Page project! This Next.js application provides a foundation for creating an engaging landing page for a hotel. It is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) to ensure a quick and efficient setup.
 
 ## Getting Started
 
-Steps to run project:
+To run the project locally, follow these steps:
 
-1. To run this project you need to go to project directory first and open terminal:
-   
-Then run:
+### 1. Navigate to Project Directory
+
+Open your terminal and navigate to the project directory:
+
 ```bash
 cd hotel-landing-page
 ```
-2. Then install node modules with command:
+
+### 2. Install Dependencies
+
+Install the required Node modules using the following command:
+
 ```bash
 npm install
+# or
+yarn
+# or
+pnpm install
+# or
+bun install
 ```
-3. Then run the development server:
+
+### 3. Run the Development Server
+
+Start the development server with one of the following commands:
 
 ```bash
 npm run dev
@@ -26,9 +44,17 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to view the application. The page auto-updates as you make changes to the code.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Customization
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+You can start customizing the page by modifying the `app/page.js` file. The project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Additional Information
+
+- Explore the [Next.js documentation](https://nextjs.org/) for in-depth information on Next.js features and capabilities.
+- For font optimization details, refer to the [`next/font` documentation](https://nextjs.org/docs/basic-features/font-optimization).
+
+Feel free to adapt and extend this project to meet your specific requirements. Happy coding!
+
+---
