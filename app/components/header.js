@@ -25,7 +25,7 @@ const Header = () => {
                 {isModalOpen && (
                     <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-70 z-50">
                         <div className="bg-white text-black p-4 rounded-lg">
-                            <p className="text-lg font-bold mb-2">Sign In / Register</p>
+                            <p className="text-lg font-bold mb-2">Sign In | Register</p>
                             {/* Your form elements for user id and password */}
                             <form className="grid grid-rows-3">
                                 <label>
